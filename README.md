@@ -6,9 +6,9 @@
 
 
 ## Projects
--HTML
--CSS
--JS
+### -HTML
+### -CSS
+### -JS
 
 ## In-Class Assignments
 -ICA1
