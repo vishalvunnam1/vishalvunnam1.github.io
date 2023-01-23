@@ -12,6 +12,7 @@
 
 ## In-Class Assignments
 ### -ICA1
+[How to Search](https://docs.google.com/document/d/1h1TMnl7zx-hrjZ8Gn2vN8_Rjq75WL01HwIyHRC19-So/edit)
 ### -ICA2
 ### -ICA3
 ### -ICA4
@@ -29,6 +30,7 @@
 
 ## Weekly Assignments
 ### -WA1
+[My Name is Vishal](https://vishalvunnam1.github.io/wa/wa1.html)
 ### -WA2
 ### -WA3
 ### -WA4
