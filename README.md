@@ -14,6 +14,7 @@
 ### -ICA1
 [How to Search](https://docs.google.com/document/d/1h1TMnl7zx-hrjZ8Gn2vN8_Rjq75WL01HwIyHRC19-So/edit)
 ### -ICA2
+[Exploring Directory Structures](https://docs.google.com/document/d/165Id6Rk2n7q-kXkua9KJsrkIz0yBSxdSiFN8Nb0jFNY/edit)
 ### -ICA3
 ### -ICA4
 ### -ICA5
@@ -32,6 +33,7 @@
 ### -WA1
 [My Name is Vishal](https://vishalvunnam1.github.io/wa/wa1.html)
 ### -WA2
+[Hello Me](https://vishalvunnam1.github.io/wa/wa2.html)
 ### -WA3
 ### -WA4
 ### -WA5
