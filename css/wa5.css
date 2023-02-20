@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0; 
+  }
+img{
+    min-width: 100%;
+    min-height: 100%;
+  }
+#overlay {
+  width: 300px;
+  padding: 10px;
+  position: fixed; 
+  bottom: 20px; 
+  right: 60%; 
+  font-size: 50px;
+
+
+
+}
+#overlay2
+{
+  width: 150px;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+
+
+}
+  
