@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+}
+#box1{
+    border-style:solid;
+    width: 40vw;
+    height: 33vh;
+    border-color:rgba(20, 250, 173,10);
+    border-width: 3px;
+    border-radius:10px;
+    background-color: mediumseagreen;
+    position:relative;
+}
+#box2{
+    width: 73vw;
+    height: fixed, 33vh;
+    border-style: solid;
+    border-radius:3px;
+    border-color:purple;
+    position:relative;
+    bottom: 0px;
+    left: 0vw;
+    background-color: mediumvioletred;
+}
+#box3{
+position:sticky;
+top:0;
+width: 73vw;
+height: 175vh;
+left: 55%;
+border-radius: 10px;
+background-color: orangered;
+}
+#text1{
+    left:120%;
+    position:relative; 
+
+}
+#text3{
+    position: sticky; 
+    top: 0; 
+}
