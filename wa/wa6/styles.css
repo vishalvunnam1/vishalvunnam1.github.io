@@ -1,3 +1,4 @@
+
 body {
     background-color: #fff;
     color: #333;
@@ -21,8 +22,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; */
 
     /* grid-column-start: 2;
     grid-column-end: 4;
@@ -41,8 +42,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 
   }
   
@@ -57,9 +58,6 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
   }
 
 
@@ -67,3 +65,37 @@ body {
   .feature {
       width: 200px;
   }
+  @media only screen and (min-width: 500px) 
+  {
+    .grid{
+      display: grid;
+    grid-template-columns: 3fr 1fr;
+    }
+    nav ul{
+      display: flex;
+    justify-content: space-between;
+    }
+    .photos{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+    }
+  }
+    @media only screen and (max-width: 500px) 
+  {
+    .grid{
+      display: grid;
+    grid-template-columns: 1fr;
+    }
+    nav ul{
+      display: flex;
+    justify-content: space-between;
+    }
+    .photos{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1px;
+    }
+
+    
+}
