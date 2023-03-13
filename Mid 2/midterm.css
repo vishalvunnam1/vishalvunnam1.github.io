@@ -1,0 +1,308 @@
+body {
+    background-image: url("/img/space\ back.jpg");
+    background-color: #cccccc;
+   }
+
+  #background-video {
+    width: 100vw;
+    height: 200vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+    #funnypic{
+      grid-area: funnypic;
+    }
+
+  
+  
+  .box {
+
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+
+  @keyframes changecolor{
+    from {
+      color:rgb(119, 255, 78);
+      text-decoration: underline rgb(119, 255, 78);
+    }
+    50% {
+      color:rgb(255, 0, 225);
+      text-decoration: underline  rgb(255, 0, 225);
+    }
+    to {
+      color:rgb(119, 255, 78);
+    }
+
+}
+.link:hover{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.blackbox{
+  background-color: rgba(255, 255, 255);
+}
+@media only screen and (max-width: 550px) 
+  {
+    main {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 10%;
+    }
+    .wrapper{
+      display: grid;
+      grid-gap: 40px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+      "header header"
+      "sidebar sidebar" 
+      "content content"
+      "footer  footer"  
+      "....... ......"
+      "skatevid skatevid";
+      
+    }
+    .sidebar {
+      grid-area: sidebar;
+      filter: drop-shadow(10px 8px 4px #4444dd);
+    }
+    #profilepic{
+      border: solid black;
+
+    }
+    img {
+        width:100%;
+      }
+  
+    .content {
+      grid-area: content;
+      background-color: rgba(255, 255, 255,.09);
+
+    }
+    .content:hover > a{
+      background-color: black;
+      -webkit-text-stroke: 1px rgb(255, 255, 0, 5); /* width and color */
+      filter: drop-shadow(10px 8px 4px #000000);
+
+    }
+    #name{
+      width: 50%;
+    }
+    .skatevid{
+      grid-area: skatevid;
+    }
+    #skatevideo{
+      height: 20vh;
+
+
+      z-index: -1;
+      filter: drop-shadow(10px 8px 4px #000000);
+
+    }
+  
+    .header {
+      grid-area: header;
+      filter: drop-shadow(10px 8px 4px #2e2d2d);
+
+    }
+    .header img{
+      height: 9vh;
+    }
+
+  
+    .footer {
+      grid-area: footer;
+    }
+    a{
+      -webkit-text-stroke: 2px rgb(0, 0, 0, 5); /* width and color */
+      font-family: "Palatino, URW Palladio L, serif"; 
+      font-size: 19px;
+
+      color:black;
+    }
+    a:hover{
+      -webkit-text-stroke: 2px rgb(255, 255, 0, 5); /* width and color */
+    }
+  
+   
+     #profilepic:hover{      filter: invert(1);
+      background-color: black;
+  }
+  .skatevid:hover{      filter: invert(1);
+  }
+  .link{
+    color:rgb(119, 255, 78);
+    -webkit-text-stroke: 2px rgb(0, 0, 0, .02); /* width and color */
+    text-decoration: underline rgb(119, 255, 78);
+    font-size: x-large;
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position:relative;
+    bottom: 300px;
+    right: 30px;
+  }
+  #pro{
+    width:20%;
+    position:relative;
+    bottom: 20px;
+    border: solid black .5px;
+    filter: drop-shadow(6px 4px 3px #000000);
+
+  }
+  #menjesus{
+    width: 150;
+    height: 10%;
+    position:relative;
+    border: solid black .5px;
+    filter: drop-shadow(6px 4px 3px #000000);
+  }
+  #god{
+    width:90px;
+
+    position:relative;
+    bottom: 20px;
+    left: 20px;
+    border: solid black .5px;
+    filter: drop-shadow(6px 4px 3px #b8aa3b);
+  }
+
+    
+}
+@media only screen and (min-width: 550px) 
+  {
+    main {
+      margin-left: 20%;
+      margin-top: 10%;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      filter: drop-shadow(10px 8px 4px #4444dd);
+    }
+    #profilepic{
+      border: solid black;
+
+    }
+    img {
+        width:100%;
+      }
+  
+    .content {
+      grid-area: content;
+      background-color: rgba(255, 255, 255,.09);
+
+    }
+    .content:hover > a{
+      background-color: black;
+      -webkit-text-stroke: 1px rgb(255, 255, 0, 5); /* width and color */
+      filter: drop-shadow(10px 8px 4px #000000);
+
+    }
+    #name{
+      width: 50%;
+    }
+    .skatevid{
+      grid-area: skatevid;
+    }
+    #skatevideo{
+      height: 20vh;
+
+
+      z-index: -1;
+      filter: drop-shadow(10px 8px 4px #000000);
+
+    }
+  
+    .header {
+      grid-area: header;
+      filter: drop-shadow(10px 8px 4px #2e2d2d);
+
+    }
+    .header img{
+      height: 9vh;
+    }
+
+  
+    .footer {
+      grid-area: footer;
+    }
+    a{
+      -webkit-text-stroke: 2px rgb(0, 0, 0, 5); /* width and color */
+      font-family: "Palatino, URW Palladio L, serif"; 
+      font-size: 19px;
+
+      color:black;
+    }
+    a:hover{
+      -webkit-text-stroke: 2px rgb(255, 255, 0, 5); /* width and color */
+    }
+  
+   
+     #profilepic:hover{      filter: invert(1);
+      background-color: black;
+  }
+  .skatevid:hover{      filter: invert(1);
+  }
+  
+  
+    .wrapper {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: 200px 300px 200px;
+      grid-template-areas:
+      "header header funnypic"
+      "sidebar content content"
+      "footer  footer  footer"
+      "....... ...... skatevid";
+    
+    }
+    .link{
+      color:rgb(119, 255, 78);
+      -webkit-text-stroke: 2px rgb(0, 0, 0, .02); /* width and color */
+      text-decoration: underline rgb(119, 255, 78);
+      font-size: x-large;
+      animation-name: changecolor;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      position:relative;
+      bottom: 180px
+    }
+    #pro{
+      width:7%;
+      position:relative;
+      bottom: 650px;
+      left: 900px;
+      border: solid black .5px;
+      filter: drop-shadow(6px 4px 3px #000000);
+
+    }
+    #menjesus{
+      width:7%;
+      height: 10%;
+      position:relative;
+      bottom: 650px;
+      left: 810px;
+      border: solid black .5px;
+      filter: drop-shadow(6px 4px 3px #000000);
+    }
+    #god{
+      width:90px;
+
+      position:relative;
+      bottom: 200px;
+      right: 200px;
+      border: solid black .5px;
+      filter: drop-shadow(6px 4px 3px #b8aa3b);
+    }
+  }
+
+
+ 
