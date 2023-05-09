@@ -1,6 +1,223 @@
+
 html, body {
     height: 100%;
-    background-image: url("/img/space-background-by-miyagi-andel-miyagi_andel.png");
-    filter: brightness(100);
+
 
 }
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-shadow:0 0 10px #36a21b, 0 0 20px #31b93a;
+}
+button:hover{
+    text-decoration: underline;
+}
+#content{
+    position: absolute; 
+    top: 10%;
+    left: 12.5%;
+    height: 80%;
+    width: 75%;
+    background-color: black;
+}
+#menu{
+    /* border: solid .5px rgba(255, 255, 255, 0.432); */
+    background-color: rgb(0, 0, 0);
+    position: absolute; 
+    color: rgb(33, 177, 33);
+    
+    font-family: OCR A Std, monospace;
+    text-shadow: 2.5px ;
+    width: 30%;
+    top: 160px;
+    left: 220px;
+    text-shadow:0 0 200px #36a21b, 0 0 200px #31b93a;
+}
+#background {
+    width: 100vw;
+    height: 200vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  #score{
+    position: absolute; 
+
+    top: 300px; 
+    left: 900px;
+    height: 200%;
+
+    color:rgb(22, 151, 22);
+    font-size: xx-large;
+    font-family: OCR A Std;
+    text-shadow:0 0 30px #1be600, 0 0 4000px #219616;
+    
+    
+  }
+  #directions{
+    position: absolute;
+    color:rgb(22, 151, 22);
+    top: 200px;
+    left:700px;
+    font-family: OCR A Std, monospace;
+    font-size:medium;
+    text-shadow:0 0 50px #36a21b, 0 0 50px #31b93a;
+    
+  }
+  #score4{
+    position: absolute; 
+
+    top: 550px; 
+    left: 400px;
+    height: 200%;
+
+    color:rgba(56, 115, 29, 0);
+    font-size: xxx-large;
+    font-family: OCR A Std, monospace;
+    text-shadow: 0 0 500px #439d06,0 0 500px;
+  
+    
+  }
+#menuhigh{
+    position: absolute; 
+    color:rgb(91, 163, 52);
+    font-family: OCR A Std, monospace;
+    text-shadow: 2px ;
+    width: 30%;
+    top: 217px;
+    left: 320px;
+    text-shadow:0 0 10px #000000, 0 0 20px #31b93a;
+}
+
+  
+#title{
+
+    position:absolute;
+    bottom: 572px;
+    filter: brightness(120%);
+    right: 290px;
+}
+#titleglow{
+    position:absolute;
+    bottom: 569px;
+    opacity:.3;
+    right: 290px;
+    filter: brightness(1000%);
+
+}
+#pop{
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+
+    filter:blur(.8px);
+
+
+    color:rgb(0, 0, 0);
+}
+#pause{
+    position: absolute;
+    top: 140px;
+    left: 27%;
+}
+#background-video{
+    position: absolute; 
+    top: 500px;
+    left: 1000px;
+    height: 30%;
+    filter: drop-shadow(10px 8px 4px #ffffff);
+    border: solid rgb(250, 250, 250, .2);
+
+
+}
+#stop{
+    position: absolute;
+    top: 140px;
+    left: 66%;
+}
+#arrows{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 50%;
+    left: 20.5%;
+    top: 60.5%;
+
+    filter: hue-rotate(215deg) brightness(350%) brightness(80%) blur(.5px);
+
+   
+
+    
+}
+#arrowshadow{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+    width: 50%;
+    left: 20%;
+    top: 60%;
+    filter: blur(.9px) brightness(1000%) brightness(10%);
+    
+    
+}
+#left{
+    position: relative;
+    top: 140px;
+    left:  140px;
+    opacity: 0; 
+    transform: rotate(90deg);
+    
+}
+#up{
+    position: relative;
+    opacity: 0;
+    transform: rotate(180deg);
+}
+#right{
+    position: relative;
+    opacity: 0;
+    transform: rotate(270deg);
+}
+
+#leftshadow{
+    position: relative;
+    top: 140px;
+    left:  140px;
+    
+    transform: rotate(90deg);
+    
+}
+#upshadow{
+    position: relative;
+
+    transform: rotate(180deg);
+}
+#rightshadow{
+    position: relative;
+
+    transform: rotate(270deg);
+}
+.pause{
+    color: rgb(33, 177, 33); 
+    font-size: larger;
+    position: absolute; 
+    left: 230px; 
+    top: 400px;
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: OCR A Std, monospace;
+    text-shadow: 0 0 900px #5da52e,0 0 900px #439d06,0 0 900px #439d06,0 0 500px #439d06;
+}
+
